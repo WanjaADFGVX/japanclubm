@@ -1,0 +1,60 @@
+/* Фон CSS */
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://resi.ze-robot.com/images/so/some-moody-wallpapers-23-1366×768.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Далее скроллер */
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:5px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:#191921;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+border-radius: 0px;
+background-color:#6dc0c8;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color:#56999f;
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:4px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 5px;
+}
+
+/*
+смена фонов
+<script> 
+var backgrounds = [  
+  "url(ЗДЕСЬ СТАВИМ ССЫЛКУ НА ИЗОБРАЖЕНИЕ 1) top center",  
+  "url(ЗДЕСЬ СТАВИМ ССЫЛКУ НА ИЗОБРАЖЕНИЕ 2) top center",  
+  "url(ЗДЕСЬ СТАВИМ ССЫЛКУ НА ИЗОБРАЖЕНИЕ 3) top center"  
+];  
+document.body.style.background = backgrounds[Math.floor(Math.random() * (backgrounds.length + 1))];  
+</script>   */
